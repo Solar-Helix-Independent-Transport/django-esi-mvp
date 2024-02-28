@@ -137,11 +137,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-####  DJANGO ESI Settings
+# DJANGO ESI Settings
 
 ESI_USER_CONTACT_EMAIL = "admin@example.com"
 
 ESI_SSO_CLIENT_ID = "my client id"
 ESI_SSO_CLIENT_SECRET = "my client secret"
 ESI_SSO_CALLBACK_URL = "https://example.com/sso/callback"
-

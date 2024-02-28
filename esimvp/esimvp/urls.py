@@ -22,7 +22,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('sso/', include('esi.urls', namespace='esi')),
-    ### App URLS
+    # App URLS
     path('add_token', view=views.redirect_get_new_token, name="add_token"),
     path('', view=views.get_index, name="index")
 ]
